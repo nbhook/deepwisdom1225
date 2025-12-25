@@ -27,7 +27,7 @@ Agent 可以根据用户问题**自动决定是否调用搜索工具**，并基�
 ---
 
 ## 3. 项目结构说明
-
+.
 ├── app.py # 项目入口：运行对话循环
 ├── agent_core.py # Agent 核心逻辑（LLM + Tool + Memory）
 ├── tools_search.py # 本地搜索工具（local_search）

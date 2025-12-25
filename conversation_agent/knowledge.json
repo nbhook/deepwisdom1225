@@ -1,0 +1,20 @@
+[
+  {
+    "id": "k1",
+    "title": "什么是 Agent",
+    "tags": ["agent", "planning", "tool"],
+    "text": "Agent 通常指能够根据目标自主决策，并在需要时调用工具或外部资源来完成任务的系统。与纯聊天模型相比，Agent 强调行动（action）、工具使用（tools）和多步推理（reasoning）。"
+  },
+  {
+    "id": "k2",
+    "title": "多轮对话与记忆",
+    "tags": ["memory", "context", "conversation"],
+    "text": "多轮对话需要保留上下文信息，例如用户的前置条件、指代对象和任务目标。常见做法是保留最近 k 轮对话（window memory），或将关键信息总结成长期记忆（summary memory）。"
+  },
+  {
+    "id": "k3",
+    "title": "本地搜索工具怎么用",
+    "tags": ["search", "retrieval", "keyword"],
+    "text": "本地搜索工具可以通过关键词匹配从知识库中找相关片段，并返回 top-k 结果给 Agent。Agent 会将搜索结果作为额外上下文，再生成更准确的回答。"
+  }
+]
